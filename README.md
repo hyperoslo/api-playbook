@@ -2,6 +2,14 @@
 
 A place to define the conventions we use to build APIs
 
+<!-- TOC depth:6 withLinks:1 updateOnSave:1 -->
+- [API styleguide](#api-styleguide)
+	- [Basic Tools](#basic-tools)
+	- [Authentication](#authentication)
+		- [http basic auth](#http-basic-auth)
+		- [token base auth](#token-base-auth)
+<!-- /TOC -->
+
 ## Basic Tools
 
 It's quite common in Hyper to build APIs with *ruby on rails*, so most of this
