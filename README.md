@@ -2,19 +2,19 @@
 
 A place to define the conventions we use to build APIs
 
+<!-- TOC depth:6 withLinks:1 updateOnSave:1 -->
+- [API styleguide](#api-styleguide)
+	- [Basic Tools](#basic-tools)
+	- [Localization](#localization)
+<!-- /TOC -->
+
 ## Basic Tools
 
 It's quite common in Hyper to build APIs with *ruby on rails*, so most of this conventions are designed to work well with Rails.
 
-## Headers
+## Localization
 
-A list of useful headers and how they work
-
-### Request Headers
-
-#### Accept-Language
-
-When you need the responses to be localized, it's recommended to use the
+When the responses need to be localized, it's recommended the client to send the
 `Accept-Language` header:
 
 ```
