@@ -28,7 +28,8 @@ A place to define the conventions we use to build APIs
 
 ## Basic Tools
 
-It's quite common in Hyper to build APIs with *Ruby on Rails*, so most of this conventions are designed to work well with Rails.
+It's quite common in Hyper to build APIs with *Ruby on Rails*, so most of this
+conventions are designed to work well with Rails.
 
 ## Heroku conventions
 
@@ -100,7 +101,10 @@ $ curl -X POST https://service.com/apps \
 
 ##### Resource names
 
-Use the plural version of a resource name unless the resource in question is a singleton within the system (for example, in most systems a given user would only ever have one account). This keeps it consistent in the way you refer to particular resources.
+Use the plural version of a resource name unless the resource in question is a
+singleton within the system (for example, in most systems a given user would
+only ever have one account). This keeps it consistent in the way you refer to
+particular resources.
 
 #### Minimize path nesting
 
@@ -144,13 +148,15 @@ responses should be coded according to this guide:
 Pay attention to the use of authentication and authorization error codes:
 
 * `401 Unauthorized`: Request failed because user is not authenticated
-* `403 Forbidden`: Request failed because user does not have authorization to access a specific resource
+* `403 Forbidden`: Request failed because user does not have authorization to
+  access a specific resource
 
 Return suitable codes to provide additional information when there are errors:
 
 * `422 Unprocessable Entity`: Your request was understood, but contained invalid parameters
 * `429 Too Many Requests`: You have been rate-limited, retry later
-* `500 Internal Server Error`: Something went wrong on the server, check status site and/or report the issue
+* `500 Internal Server Error`: Something went wrong on the server, check status
+  site and/or report the issue
 
 Refer to the [HTTP response code spec](https://tools.ietf.org/html/rfc7231#section-6)
 for guidance on status codes for user error and server error cases.
