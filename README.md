@@ -33,9 +33,9 @@ conventions are designed to work well with Rails.
 
 ## Heroku conventions
 
-We take in account most of [heroku conventions for building APIs][6ea5c025]
+We take in account most of [Heroku's conventions for building APIs][6ea5c025].
 
-  [6ea5c025]: https://github.com/interagent/http-api-design "heroku conventions for building APIs"
+  [6ea5c025]: https://github.com/interagent/http-api-design "Heroku's conventions for building APIs"
 
 ### Foundations
 
