@@ -5,6 +5,7 @@ A place to define the conventions we use to build APIs
 <!-- TOC depth:6 withLinks:1 updateOnSave:1 -->
 - [API styleguide](#api-styleguide)
 	- [Basic Tools](#basic-tools)
+	- [Localization](#localization)
 	- [Heroku conventions](#heroku-conventions)
 		- [Foundations](#foundations)
 			- [Separate Concerns](#separate-concerns)
@@ -28,8 +29,18 @@ A place to define the conventions we use to build APIs
 
 ## Basic Tools
 
-It's quite common in Hyper to build APIs with *Ruby on Rails*, so most of these
+It's quite common in Hyper to build APIs with *ruby on rails*, so most of these
 conventions are designed to work well with Rails.
+
+## Localization
+
+When the responses need to be localized, it's recommended for the client to send
+the [`Accept-Language`](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4)
+header:
+
+```
+Accept-Language: nb-no, no, en
+```
 
 ## Heroku conventions
 
