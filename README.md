@@ -14,7 +14,7 @@ It's quite common in Hyper to build APIs with *ruby on rails*, so most of this c
 
 ## Versioning
 
-On standart rails applications, there are 3 used schemas for versioning
+On standard Rails applications, there are 3 used schemas for versioning:
 
 
   * Url
@@ -33,20 +33,15 @@ On standart rails applications, there are 3 used schemas for versioning
 
   ```
   GET hyper.super-app.no/api/spaceships
-  ```
-
-  request headers
-
-  ```
   Accept: application/vnd.super-app+json; version=1.2
   ```
 
-There is many blog post and controversy about this on the internet. Hyper's
-current approach is to use **the `Accept` header**, since we allow resource Urls
-to be _permalink_ and we don't bulk all parameters in the url.
+There are many blog posts and controversy about this. Our current approach is
+to use **the `Accept` header**, since we allow resource URLs to be _permalinks_
+and we don't bulk all parameters in the URLs.
 
-_this comes with the cost that is a little more difficult to share the url of
-a given request_
+_This comes with the cost that it is a little more difficult to share the URL of
+a given request._
 
 The reference for this was taken from the [Big Nerd Ranch][2fc9a579]
 
