@@ -29,7 +29,7 @@ A place to define the conventions we use to build APIs
 
 ## Basic Tools
 
-It's quite common in Hyper to build APIs with *ruby on rails*, so most of these
+It's quite common in Hyper to build APIs with [Ruby on Rails](http://rubyonrails.org/), so most of these
 conventions are designed to work well with Rails.
 
 ## Localization
