@@ -25,6 +25,7 @@ A place to define the conventions we use to build APIs
 			- [Generate structured errors](#generate-structured-errors)
 			- [Show rate limit status](#show-rate-limit-status)
 			- [Keep JSON minified in all responses](#keep-json-minified-in-all-responses)
+
 <!-- /TOC -->
 
 ## Basic Tools
