@@ -28,7 +28,6 @@ A place to define the conventions we use to build APIs
 
 <!-- /TOC -->
 
-
 ## Basic Tools
 
 It's quite common in Hyper to build APIs with [Ruby on Rails](http://rubyonrails.org/), so most of these
